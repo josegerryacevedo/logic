@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menus Styling</title>
+    <style>
+        body{
+            font-family: arial, Helvetica, sans-serif;
+        }
+        /*NAVBAR STYLING*/
+        .navbar{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background: lightblue;
+            border-radius: 10px;
+            overflow: auto;
+            text-align: right;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            display: block;
+            padding: 20px 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .navbar li a:hover{
+            background-color: snow;
+            color: cyan;
+        }
+
+
+
+
+
+
+
+        /*side menu styling*/
+        .side-menu{
+            /*erase the left dot*/
+            list-style: none;
+            border: 1px #ddd solid;
+            padding: 20px;
+            width: 500px;
+        }
+        .side-menu li{
+            font-size: 30px;
+            line-height: 1.5em;
+            text-decoration: none;
+        }
+        .side-menu li a{
+            text-decoration: none;
+            color: black;
+        }
+        .side-menu li a:hover{
+            color: red;
+        }
+    </style>
+
+
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PROJECT</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT US</a></li>
+    </ul>
+
+
+    <ul class="side-menu">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PROJECT</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT US</a></li>
+    </ul>
+</body>
+</html>
